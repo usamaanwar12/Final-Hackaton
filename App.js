@@ -9,12 +9,15 @@ import React from "react";
 // import { View } from "react-native";
 // import { ToastAndroid } from "react-native";
 import Login from "./lib/screens/auth_screen/login";
-
+import SignUp from "./lib/screens/auth_screen/SignUp";
+import Homescreen from "./lib/screens/homescreen/Homescreen";
 const App = () =>{
   return(
     
     <>
-      <Login />
+      {/* <Login /> */}
+      {/* <SignUp/> */}
+      <Homescreen/>
       {/* <ToastAndroid ref={(ref)=> Toast.setRef(ref)} /> */}
     
     </>
